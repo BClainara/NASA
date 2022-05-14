@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Teste</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E6F5F6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FFD700;
+}
+
+.active {
+  background-color: #44A754;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #00008B;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 950px; /* only for demonstration, should be removed */
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #FFFF;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 style="background-color:Red;">NASA(National Aeronautics and Space Administration )</h1>
+
+  
+  <img src="nasa.png" alt="Nasa" width="220" height="200"/>
+<p4>
+   Administração Nacional da Aeronáutica e Espaço é uma agência do governo federal dos Estados Unidos responsável pela pesquisa e desenvolvimento de tecnologias e programas de exploração espacial. Sua missão oficial é "fomentar o futuro na pesquisa, descoberta e exploração espacial".
+</p4>
+
+  <header>
+  <h3>Primeiros voos espaciais tripulados</h3>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Programa X-15</a></li>
+      <li><a href="#">Programa Mercury</a></li>
+      <li><a href="#">Projeto Gemini</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Programa X-15 (1954-1968)</h1>
+    <p><i>A NASA herdou a aeronave experimental de pesquisa hipersônica movida a foguete X-15 da NACA, desenvolvida em conjunto com a Força Aérea e a Marinha dos Estados Unidos. Três aviões foram construídos a partir de 1955. O X-15 foi lançado da asa de um dos dois Boeing B-52 Stratofortresses da NASA, cauda NB52A número 52-003, e NB52B, cauda número 52-008 (conhecido como Balls 8). A liberação ocorreu a uma altitude de cerca de 45 000 pés (14 km) e a uma velocidade de cerca de 500 milhas por hora (805 km/h).</i></p>
+  </article>
+
+  <article>
+    <h1>Programa Mercury (1958–1963)</h1>
+    <p><i>Realizado sob a pressão da concorrência entre os EUA e a União Soviética que existiu durante a Guerra Fria, o Programa Mercury foi iniciado em 1958 e lançou a NASA no caminho da exploração humana do espaço com as missões destinadas a descobrir se o homem poderia sobreviver no espaço sideral. Representantes do Exército, Marinha e Força Aérea dos EUA foram selecionados para prestar assistência à NASA. Em 5 de maio de 1961 o astronauta Alan Shepard se tornou o primeiro estadunidense no espaço pilotando a Freedom 7 em um voo suborbital de 15 minutos. John Glenn se tornou o primeiro estadunidense a orbitar a Terra em 20 de fevereiro de 1962 durante o voo da Friendship 7.</i></p>
+  </article>
+  
+  <article>
+    <h1>Projeto Gemini (1961–1966)</h1>
+    <p><i>O Projeto Gemini se concentrou em realizar experimentos e desenvolver e praticar as técnicas necessárias para missões lunares. O primeiro voo Gemini com astronautas a bordo, o Gemini III, foi pilotado por Gus Grissom e John Young em 23 de março de 1965.[25] Seguiram-se mais nove missões, mostrando que eram possíveis o voo espacial humano de longa duração e o encontro e acoplagem com um outro veículo no espaço, além de coletar dados médicos sobre os efeitos da microgravidade sobre os seres humanos.[26][27] As missões Gemini incluíram as primeiras caminhadas espaciais estadunidenses e o uso de novas manobras orbitais como encontro e acoplamento. </i></p>
+  </article>
+  
+</section>
+
+<footer>
+  Algumas informações de copyright ou talvez alguma informação do autor 
+</footer>
+
+</body>
+
+</html>
